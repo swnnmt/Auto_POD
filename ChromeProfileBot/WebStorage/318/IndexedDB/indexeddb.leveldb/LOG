@@ -1,0 +1,5 @@
+2026/03/04-00:29:07.650 5c68 Reusing MANIFEST C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\WebStorage\318\IndexedDB\indexeddb.leveldb/MANIFEST-000001
+2026/03/04-00:29:07.650 5c68 Recovering log #7
+2026/03/04-00:29:07.651 5c68 Reusing old log C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\WebStorage\318\IndexedDB\indexeddb.leveldb/000007.log 
+2026/03/04-00:29:07.651 5c68 Delete type=2 #5
+2026/03/04-00:29:07.683 5c68 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

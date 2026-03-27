@@ -1,0 +1,188 @@
+{
+   "checksum": "38108785c106be87343d2f8925b368f1",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13358506384264052",
+            "date_last_used": "13417641619245264",
+            "guid": "e798198a-86fc-4061-872f-df246611981f",
+            "id": "80",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Personal account",
+            "type": "url",
+            "url": "https://grizzlysms.com/profile"
+         }, {
+            "date_added": "13395011241872245",
+            "date_last_used": "13418373605687780",
+            "guid": "a50604bd-dfd3-4763-aa00-a107663c473f",
+            "id": "85",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Iskytracking | Dashboard",
+            "type": "url",
+            "url": "https://app.iskytracking.com/dashboard#r=ZC19"
+         }, {
+            "date_added": "13398285818853552",
+            "date_last_used": "13414132258644154",
+            "guid": "8de66b4a-c0be-46af-a790-bb833433375f",
+            "id": "87",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Amazon",
+            "type": "url",
+            "url": "https://sellercentral.amazon.com/home"
+         }, {
+            "date_added": "13404372723598329",
+            "date_last_used": "13404373111914681",
+            "guid": "1e2842f5-a258-4ea0-8740-a596bade7ffc",
+            "id": "91",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Manage Your Inventory",
+            "type": "url",
+            "url": "https://sellercentral.amazon.com/myinventory/inventory?fulfilledBy=all&page=1&pageSize=25&sort=date_created_desc&status=all&ref_=xx_invmgr_favb_xx"
+         }, {
+            "children": [ {
+               "date_added": "13418594451362289",
+               "date_last_used": "13418750976901683",
+               "guid": "6fbff328-10b4-4bad-a16c-22296c6825a5",
+               "id": "93",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Placeit - Mockup of a Round-Neck Gildan T-Shirt Lying on a Colorful Surface",
+               "type": "url",
+               "url": "https://placeit.net/c/mockups/stages/mockup-of-a-round-neck-gildan-t-shirt-lying-on-a-colorful-surface-m30581/editor?colorFolder_Background=transparent&customG_0=tc9c1h3f82&colorFolder_Shirt%20Color=%23ffffff"
+            }, {
+               "date_added": "13418594465505045",
+               "date_last_used": "13418688040449819",
+               "guid": "234a0181-678a-4940-b564-6f3e189c3117",
+               "id": "94",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Placeit - Mockup of a Gildan Round-Neck Tee Placed on a Hanger",
+               "type": "url",
+               "url": "https://placeit.net/c/mockups/stages/mockup-of-a-gildan-round-neck-tee-placed-on-a-hanger-m31091/editor?colorFolder_Background=%23e5e5e5&customG_0=tc9c1j1b76&colorFolder_Shirt%20Color%20=%23ffffff"
+            }, {
+               "date_added": "13418594468357027",
+               "date_last_used": "13418688042381131",
+               "guid": "63b3c616-7563-40a8-929d-782c36adac1f",
+               "id": "95",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Placeit - Mockup of a Gildan Round-Neck T-Shirt Placed on a Hanger",
+               "type": "url",
+               "url": "https://placeit.net/c/mockups/stages/mockup-of-a-gildan-round-neck-t-shirt-placed-on-a-hanger-m35055/editor?colorFolder_Background=%23e5e5e5&customG_0=tc9c1lf1f1&colorFolder_Shirt%20Color=%23ffffff"
+            }, {
+               "date_added": "13418594471099359",
+               "date_last_used": "13418688045101747",
+               "guid": "20d1b8ea-a9f2-427a-b054-a94515fe3a37",
+               "id": "96",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Placeit - Mockup of a Gildan T-Shirt Placed on a Wooden Hanger",
+               "type": "url",
+               "url": "https://placeit.net/c/mockups/stages/mockup-of-a-gildan-t-shirt-placed-on-a-wooden-hanger-m31092/editor?colorFolder_Background=%23e5e5e5&customG_0=tc9c1lbd8c&colorFolder_Shirt%20Color%20=%23ffffff"
+            }, {
+               "date_added": "13418594474401130",
+               "date_last_used": "13418688066475450",
+               "guid": "6a47c0eb-9901-4640-b201-d6d8e8623fd5",
+               "id": "97",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Placeit - Mockup of a Gildan T-Shirt with a Crew Neck",
+               "type": "url",
+               "url": "https://placeit.net/c/mockups/stages/mockup-of-a-gildan-t-shirt-with-a-crew-neck-m30582/editor?colorFolder_Background=%23e5e5e5&customG_0=tc9c1n9dd0&colorFolder_Shirt%20Color=%23ffffff"
+            }, {
+               "date_added": "13418594477070033",
+               "date_last_used": "13418688069382967",
+               "guid": "18d34612-32f0-4cfd-a514-c89d4f7a2dff",
+               "id": "98",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Placeit - Gildan Round-Neck Tee Mockup of a Happy Man Enjoying the City",
+               "type": "url",
+               "url": "https://placeit.net/c/mockups/stages/gildan-round-neck-tee-mockup-of-a-happy-man-enjoying-the-city-m39290/editor?customG_0=tc9c1p6c24&colorFolder_Shirt%20Color=%23ffffff"
+            }, {
+               "date_added": "13418594479521096",
+               "date_last_used": "13418688071728738",
+               "guid": "be573e16-512c-4b78-b0e3-e9f121a94e0b",
+               "id": "99",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Placeit - Gildan T-Shirt Mockup Featuring a Happy Man Happily Celebrating",
+               "type": "url",
+               "url": "https://placeit.net/c/mockups/stages/gildan-t-shirt-mockup-featuring-a-happy-man-happily-celebrating-m39151/editor?customG_0=tc9c1rd41a&colorFolder_Shirt%20Color=%23ffffff"
+            }, {
+               "date_added": "13418594481586054",
+               "date_last_used": "13418688075074802",
+               "guid": "a127625d-2208-4beb-bf5c-856dac9e1ccf",
+               "id": "100",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Placeit - Gildan T-Shirt Mockup of a Man on The Street Pointing with His Finger",
+               "type": "url",
+               "url": "https://placeit.net/c/mockups/stages/gildan-t-shirt-mockup-of-a-man-on-the-street-pointing-with-his-finger-m39309/editor?customG_0=tc9c1sb786&colorFolder_Shirt%20Color=%23ffffff"
+            } ],
+            "date_added": "13418594541064019",
+            "date_last_used": "0",
+            "date_modified": "13418594575789782",
+            "guid": "ed8ff5ef-168b-4deb-abb9-6b1796f729d0",
+            "id": "101",
+            "name": "Mockup",
+            "type": "folder"
+         } ],
+         "date_added": "13312266757017432",
+         "date_last_used": "0",
+         "date_modified": "13418594527688078",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Thanh dấu trang",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13312266757017433",
+         "date_last_used": "0",
+         "date_modified": "13358506384264052",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Dấu trang khác",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13312399235016151",
+            "date_last_used": "0",
+            "guid": "a99a0ba7-022e-4f02-9ec5-2f20f1a214a1",
+            "id": "21",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Python - Basic",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/1f5SmS1EuVg4Aie0qPKbBG3R502dokLru"
+         } ],
+         "date_added": "13312266757017434",
+         "date_last_used": "0",
+         "date_modified": "13313611983056760",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Dấu trang trên thiết bị di động",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -1,0 +1,17 @@
+2025/08/07-16:34:30.715 38fc Creating DB C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\WebStorage\371\IndexedDB\indexeddb.leveldb since it was missing.
+2025/08/07-16:34:30.719 38fc Reusing MANIFEST C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\WebStorage\371\IndexedDB\indexeddb.leveldb/MANIFEST-000001
+2025/08/07-16:34:30.893 4028 Level-0 table #5: started
+2025/08/07-16:34:30.895 4028 Level-0 table #5: 2724 bytes OK
+2025/08/07-16:34:30.897 4028 Delete type=0 #3
+2025/08/07-16:34:30.897 5518 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/07-16:34:46.677 4028 Level-0 table #7: started
+2025/08/07-16:34:46.681 4028 Level-0 table #7: 16969 bytes OK
+2025/08/07-16:34:46.683 4028 Delete type=0 #4
+2025/08/07-16:34:46.683 4028 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/07-16:34:46.683 4028 Manual compaction at level-1 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xf0\xb7\x1f>\x88yB\x00\x03\x00\x00\x00\x00\x00\x00\x00@' @ 340 : 1
+2025/08/07-16:34:46.684 4028 Compacting 1@1 + 1@2 files
+2025/08/07-16:34:46.685 4028 Generated table #8@1: 43 keys, 1156 bytes
+2025/08/07-16:34:46.685 4028 Compacted 1@1 + 1@2 files => 1156 bytes
+2025/08/07-16:34:46.687 4028 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/07-16:34:46.687 4028 Delete type=2 #7
+2025/08/07-16:34:46.687 5518 Manual compaction at level-1 from '\x00\x04\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xf0\xb7\x1f>\x88yB\x00\x03\x00\x00\x00\x00\x00\x00\x00@' @ 340 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)

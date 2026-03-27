@@ -1,0 +1,7 @@
+2026/03/24-00:05:41.644 35c4 Reusing MANIFEST C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\Local Extension Settings\nkbihfbeogaeaoehlefnkodbefgpgknn/MANIFEST-000001
+2026/03/24-00:05:41.646 35c4 Recovering log #14009
+2026/03/24-00:05:41.646 35c4 Reusing old log C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\Local Extension Settings\nkbihfbeogaeaoehlefnkodbefgpgknn/014009.log 
+2026/03/24-00:05:41.646 35c4 Delete type=2 #14011
+2026/03/24-00:05:41.646 4a48 Compacting 1@1 + 1@2 files
+2026/03/24-00:05:41.722 4a48 compacted to: files[ 1 1 2 0 0 0 0 ]
+2026/03/24-00:05:41.722 4a48 Compaction error: Corruption: block checksum mismatch

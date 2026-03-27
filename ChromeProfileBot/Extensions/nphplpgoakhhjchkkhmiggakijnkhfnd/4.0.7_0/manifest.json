@@ -1,0 +1,33 @@
+{
+   "action": {
+      "default_title": "TON Wallet"
+   },
+   "background": {
+      "service_worker": "/extensionServiceWorker.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "/extensionContentScript.js" ],
+      "matches": [ "file://*/*", "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "default-src 'none'; manifest-src 'self'; connect-src 'self' blob: https://api.mytonwallet.org wss://api.mytonwallet.org https://api.mytonwallet.org/proxy/ https://static.mytonwallet.org https://toncenter.mytonwallet.org wss://toncenter.mytonwallet.org https://toncenter-testnet.mytonwallet.org wss://toncenter-testnet.mytonwallet.org https://tonapiio.mytonwallet.org https://tonapiio-testnet.mytonwallet.org https://tronapi.mytonwallet.org https://api.shasta.trongrid.io https://ipfs.io/ipfs/ https://tonconnectbridge.mytonwallet.org/bridge/ ; script-src 'self' 'wasm-unsafe-eval' ; style-src 'self' https://fonts.googleapis.com/; img-src 'self' data: blob: https: https://static.mytonwallet.org https://imgproxy.mytonwallet.org https://dns-image.mytonwallet.org https://mytonwallet.s3.eu-central-1.amazonaws.com https://cache.tonapi.io https://c.tonapi.io https://imgproxy.toncenter.com https://web-api.changelly.com; media-src 'self' data: https://static.mytonwallet.org/; object-src 'none'; base-uri 'none'; font-src 'self' https://fonts.gstatic.com/; form-action 'none'; frame-src 'self' https: ;"
+   },
+   "description": "Set up your own TON Wallet on The Open Network",
+   "icons": {
+      "192": "coreWallet/icon-192x192.png",
+      "256": "coreWallet/icon-256x256.png",
+      "512": "coreWallet/icon-512x512.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgudzZ55CLwudqKNQoPFpJbz3TzhiLcYBC9/Q7/3YEabqoP6ZR1ko1kwGHmMeKbkiKakmd3s51/MhDbxsSh0cRlOkpkuwkeICoyfRfgZHKt2SdAxxHTISXADuWrXQqYRajo506LDzwCpTDGwFYDQO4Df6GUS8XCdPqhbLnQHYByuFQJpor94jdvtukf4Tcn9h2uB9eZfqbboobS7R4u6x7jRUHKMR2eUNFyPx8HOTcID2adw9ecnvLi4eenxe4n/ij8aylKr8ziktMyO4YeH8zoWjguSa9tIzq9HaF/6pXzZP1ArSw33tSoSEvr5LkqdzhpNBU+CCHKn1fIzBK/Nc1wIDAQAB",
+   "manifest_version": 3,
+   "name": "TON Wallet",
+   "permissions": [ "webRequest", "system.display", "proxy", "storage", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.7",
+   "web_accessible_resources": [ {
+      "matches": [ "file://*/*", "http://*/*", "https://*/*" ],
+      "resources": [ "/extensionPageScript.js" ]
+   } ]
+}

@@ -1,0 +1,7 @@
+2025/02/25-15:51:42.976 3458 Reusing MANIFEST C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\WebStorage\292\IndexedDB\indexeddb.leveldb/MANIFEST-000001
+2025/02/25-15:51:42.977 3458 Recovering log #3
+2025/02/25-15:51:42.977 3458 Reusing old log C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\WebStorage\292\IndexedDB\indexeddb.leveldb/000003.log 
+2025/02/25-16:24:34.250 25cc Level-0 table #5: started
+2025/02/25-16:24:34.255 25cc Level-0 table #5: 115384 bytes OK
+2025/02/25-16:24:34.257 25cc Delete type=0 #3
+2025/02/25-16:24:34.258 25cc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

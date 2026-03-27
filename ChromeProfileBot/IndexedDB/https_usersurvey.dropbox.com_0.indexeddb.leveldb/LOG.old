@@ -1,0 +1,6 @@
+2026/03/23-04:46:02.583 c730 Creating DB C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\IndexedDB\https_usersurvey.dropbox.com_0.indexeddb.leveldb since it was missing.
+2026/03/23-04:46:02.588 c730 Reusing MANIFEST C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\IndexedDB\https_usersurvey.dropbox.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/23-04:46:13.597 c730 Level-0 table #5: started
+2026/03/23-04:46:13.598 c730 Level-0 table #5: 3459 bytes OK
+2026/03/23-04:46:13.600 c730 Delete type=0 #3
+2026/03/23-04:46:13.600 c730 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

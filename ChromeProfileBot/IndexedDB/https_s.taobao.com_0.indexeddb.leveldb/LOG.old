@@ -1,0 +1,6 @@
+2025/07/27-01:27:12.450 4938 Creating DB C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\IndexedDB\https_s.taobao.com_0.indexeddb.leveldb since it was missing.
+2025/07/27-01:27:12.455 4938 Reusing MANIFEST C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\IndexedDB\https_s.taobao.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/27-01:27:18.078 30fc Level-0 table #5: started
+2025/07/27-01:27:18.079 30fc Level-0 table #5: 875 bytes OK
+2025/07/27-01:27:18.081 30fc Delete type=0 #3
+2025/07/27-01:27:18.082 30fc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,24 @@
+2026/03/17-00:43:09.339 51f8 Reusing MANIFEST C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\IndexedDB\https_tensor.art_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/17-00:43:09.339 51f8 Recovering log #40
+2026/03/17-00:43:09.339 51f8 Reusing old log C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\IndexedDB\https_tensor.art_0.indexeddb.leveldb/000040.log 
+2026/03/17-00:43:09.346 53fc Level-0 table #44: started
+2026/03/17-00:43:09.350 53fc Level-0 table #44: 641 bytes OK
+2026/03/17-00:43:09.351 53fc Delete type=0 #40
+2026/03/17-00:43:09.351 51f8 Manual compaction at level-0 from '\x00\x0d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0d\x00\x00\x05' @ 270 : 1
+2026/03/17-00:43:09.351 51f8 Compacting 1@0 + 1@1 files
+2026/03/17-00:43:09.354 51f8 Generated table #45@0: 7 keys, 603 bytes
+2026/03/17-00:43:09.354 51f8 Compacted 1@0 + 1@1 files => 603 bytes
+2026/03/17-00:43:09.355 51f8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/17-00:43:09.355 51f8 Delete type=2 #44
+2026/03/17-00:43:09.355 51f8 Manual compaction at level-0 from '\x00\x0d\x00\x00\x05' @ 270 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/03/17-00:43:41.282 53fc Level-0 table #47: started
+2026/03/17-00:43:41.286 53fc Level-0 table #47: 646 bytes OK
+2026/03/17-00:43:41.287 53fc Delete type=2 #41
+2026/03/17-00:43:41.287 53fc Delete type=0 #43
+2026/03/17-00:43:41.288 51f8 Manual compaction at level-0 from '\x00\x0e\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0f\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0e\x00\x00\x05' @ 289 : 1
+2026/03/17-00:43:41.288 51f8 Compacting 1@0 + 1@1 files
+2026/03/17-00:43:41.290 51f8 Generated table #48@0: 11 keys, 624 bytes
+2026/03/17-00:43:41.291 51f8 Compacted 1@0 + 1@1 files => 624 bytes
+2026/03/17-00:43:41.291 51f8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/17-00:43:41.292 51f8 Delete type=2 #47
+2026/03/17-00:43:41.292 51f8 Manual compaction at level-0 from '\x00\x0e\x00\x00\x05' @ 289 : 1 .. '\x00\x0f\x00\x00\x00' @ 0 : 0; will stop at (end)

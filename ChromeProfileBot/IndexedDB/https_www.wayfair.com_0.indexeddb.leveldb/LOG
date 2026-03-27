@@ -1,0 +1,18 @@
+2025/09/09-23:35:00.260 4210 Creating DB C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\IndexedDB\https_www.wayfair.com_0.indexeddb.leveldb since it was missing.
+2025/09/09-23:35:00.265 4210 Reusing MANIFEST C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\IndexedDB\https_www.wayfair.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/09-23:35:00.473 41b4 Level-0 table #5: started
+2025/09/09-23:35:00.477 41b4 Level-0 table #5: 558 bytes OK
+2025/09/09-23:35:00.479 41b4 Delete type=0 #3
+2025/09/09-23:35:00.480 4218 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/09/09-23:35:18.011 4210 Level-0 table #7: started
+2025/09/09-23:35:18.012 4210 Level-0 table #7: 1261 bytes OK
+2025/09/09-23:35:18.014 4210 Delete type=0 #4
+2025/09/09-23:35:18.014 4210 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/09/09-23:35:18.014 4210 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x08\x00t\x00m\x00x\x00-\x00s\x00i\x00d\x001' @ 68 : 1
+2025/09/09-23:35:18.014 4210 Compacting 1@1 + 1@2 files
+2025/09/09-23:35:18.015 4210 Generated table #8@1: 21 keys, 805 bytes
+2025/09/09-23:35:18.015 4210 Compacted 1@1 + 1@2 files => 805 bytes
+2025/09/09-23:35:18.017 4210 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/09-23:35:18.017 4210 Delete type=2 #5
+2025/09/09-23:35:18.017 4210 Delete type=2 #7
+2025/09/09-23:35:18.018 4210 Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x08\x00t\x00m\x00x\x00-\x00s\x00i\x00d\x001' @ 68 : 1 .. (end); will stop at (end)

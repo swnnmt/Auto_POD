@@ -1,0 +1,14 @@
+2025/07/27-01:57:40.178 4938 Reusing MANIFEST C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\IndexedDB\https_www.cyclegear.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/27-01:57:40.178 4938 Recovering log #14
+2025/07/27-01:57:40.178 4938 Reusing old log C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\IndexedDB\https_www.cyclegear.com_0.indexeddb.leveldb/000014.log 
+2025/07/27-01:57:40.178 4938 Delete type=2 #12
+2025/07/27-01:57:40.226 51e0 Level-0 table #19: started
+2025/07/27-01:57:40.229 51e0 Level-0 table #19: 1370 bytes OK
+2025/07/27-01:57:40.230 51e0 Delete type=0 #14
+2025/07/27-01:57:40.230 30fc Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x01\x03\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 401 : 1
+2025/07/27-01:57:40.230 30fc Compacting 1@0 + 1@1 files
+2025/07/27-01:57:40.232 30fc Generated table #20@0: 30 keys, 747 bytes
+2025/07/27-01:57:40.232 30fc Compacted 1@0 + 1@1 files => 747 bytes
+2025/07/27-01:57:40.233 30fc compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/27-01:57:40.233 30fc Delete type=2 #19
+2025/07/27-01:57:40.233 30fc Manual compaction at level-0 from '\x00\x05\x01\x03\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 401 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
