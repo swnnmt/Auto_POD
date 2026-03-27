@@ -1,7 +1,0 @@
-2026/03/17-00:42:09.332 51f8 Reusing MANIFEST C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\IndexedDB\https_tensor.art_0.indexeddb.leveldb/MANIFEST-000001
-2026/03/17-00:42:09.332 51f8 Recovering log #35
-2026/03/17-00:42:09.332 51f8 Reusing old log C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\IndexedDB\https_tensor.art_0.indexeddb.leveldb/000035.log 
-2026/03/17-00:42:09.343 53fc Level-0 table #41: started
-2026/03/17-00:42:09.347 53fc Level-0 table #41: 607 bytes OK
-2026/03/17-00:42:09.348 53fc Delete type=0 #35
-2026/03/17-00:42:09.348 51f8 Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)

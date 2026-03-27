@@ -1,7 +1,0 @@
-2025/08/11-18:31:09.312 5270 Reusing MANIFEST C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\IndexedDB\https_snapedit.app_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/11-18:31:09.312 5270 Recovering log #4
-2025/08/11-18:31:09.313 5270 Reusing old log C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 1\IndexedDB\https_snapedit.app_0.indexeddb.leveldb/000004.log 
-2025/08/11-18:31:09.383 243c Level-0 table #8: started
-2025/08/11-18:31:09.386 243c Level-0 table #8: 163899 bytes OK
-2025/08/11-18:31:09.388 243c Delete type=0 #4
-2025/08/11-18:31:09.389 5270 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
