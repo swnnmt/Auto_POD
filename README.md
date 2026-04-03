@@ -1,0 +1,22 @@
+
+
+# tạo nhánh riêng
+# git branch ten-nhanh (nếu chưa tạo thì tạo)
+# git checkout  ten-nhanh (để vào nhánh)
+
+# start
+# git checkout main
+# git pull origin main       # lấy code mới nhất từ remote main
+# git checkout ten-nhanh     # về lại nhánh của mình
+# git merge main             # merge code mới từ main vào nhánh của mình
+           
+
+# Code và thêm chức năng xong
+# git add .
+# git commit -m "Thêm tính năng A"
+# git push origin swn
+
+# git checkout main
+# git pull origin main       # đảm bảo main local mới nhất
+# git merge swn              # merge nhánh của bạn vào main
+# git push origin main       # đẩy code lên remote main
