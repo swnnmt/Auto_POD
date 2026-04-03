@@ -8,26 +8,26 @@
 # git merge main        # lấy code mới nhất ở main
 
 # tạo nhánh feature
-# git checkout -b feature/ten-tinh-nang  tạo nhánh cho chức năng
+# git checkout -b feature/ten-tinh-nang   # tạo nhánh cho chức năng và chuyển sang nhánh chức năng
+# git merge dev                           # lấy code mới nhất ở dev
 
 # Code xong
 # git add .
 # git commit -m "Thêm tính năng A"
 # git push origin feature/ten-tinh-nang
 
-# tạo Pull Request (merge vào dev) # bấm pull request trên git
-
 # Test ( ko cần tạo nhánh tránh rối)
+# git checkout feature/ten-tinh-nang # sang nhánh tính năng
+# git pull origin feature/ten-tinh-nang # lấy code ở nhánh tính năng
+# Test và báo cái lại dev -> có bug -> Dev fix bug → push lại branch feature -> pull lại và test
+# Done → tạo Pull Request (feature → dev) trên GitHub
+
+
+
+# Release ( phiên bản hoàn chỉnh luôn sẵn sàng sử dụng)
 # git checkout dev
-# git pull origin dev
-# Test và báo lỗi trên Pull Request
-
-# Dev fix bug → push lại branch feature
-
-# Done → merge Pull Request vào dev
-
-# Release
+# git pull origin dev  # lấy mới nhất của dev
 # git checkout main
-# git pull origin main
+# git pull origin main # lấy mới nhất của main
 # git merge dev
 # git push origin main
