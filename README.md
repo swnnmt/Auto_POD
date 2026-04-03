@@ -1,5 +1,3 @@
-
-
 # tạo nhánh riêng
 # git branch ten-nhanh (nếu chưa tạo thì tạo)
 # git checkout  ten-nhanh (để vào nhánh)
@@ -10,7 +8,6 @@
 # git checkout ten-nhanh     # về lại nhánh của mình
 # git merge main             # merge code mới từ main vào nhánh của mình
            
-
 # Code và thêm chức năng xong
 # git add .
 # git commit -m "Thêm tính năng A"
