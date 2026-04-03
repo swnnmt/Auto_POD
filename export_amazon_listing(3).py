@@ -15,6 +15,7 @@ VARIATION_THEME = "SIZE/COLOR"
 SIZE_SYSTEM = "US"
 SIZE_CLASS = "Alpha"
 SIZES = ["S", "M", "L", "XL"]
+DEFAULT_PRICE = "21.99" 
 COLORS = {
     "w": "White",
     "b": "Black"
@@ -79,15 +80,17 @@ def export_listing_for_folder(folder_path, ai_data):
         imgs = images_by_color.get(color_code, [])
         for size in SIZES:
             child_sku = f"{parent_sku}-{color_code}-{size.lower()}"
+            child_item_name = f"{Item_Name} ({color_name} - {size} )" # Item Name của Child bao gồm Màu và Size
             
             ws.cell(row=current_row, column=1).value = child_sku           # SKU
             ws.cell(row=current_row, column=2).value = "SHIRT"             # Product Type
             ws.cell(row=current_row, column=4).value = "Child"             # Parentage Level
             ws.cell(row=current_row, column=5).value = parent_sku          # Parent SKU (Ánh xạ từ Parent)
             ws.cell(row=current_row, column=6).value = VARIATION_THEME     # Variation Theme
-            ws.cell(row=current_row, column=7).value = Item_Name               # Item Name
+            ws.cell(row=current_row, column=7).value = child_item_name     # Item Name (Child)
             ws.cell(row=current_row, column=8).value = BRAND_NAME          # Brand Name
             ws.cell(row=current_row, column=11).value = ITEM_TYPE_KEYWORD  # Item Type Keyword
+            ws.cell(row=current_row, column=232).value = DEFAULT_PRICE     # Your Price USD (Sell on Amazon, US)
             
             # Mô tả & Bullets
             ws.cell(row=current_row, column=29).value = description        # Product Description
