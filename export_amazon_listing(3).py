@@ -15,7 +15,9 @@ VARIATION_THEME = "SIZE/COLOR"
 SIZE_SYSTEM = "US"
 SIZE_CLASS = "Alpha"
 SIZES = ["S", "M", "L", "XL"]
-DEFAULT_PRICE = "21.99" 
+DEFAULT_PRICE = "20.99" 
+DEFAULT_QUANTITY = "10"
+DEFAULT_HANDLING_TIME = "3"
 COLORS = {
     "w": "White",
     "b": "Black"
@@ -67,7 +69,11 @@ def export_listing_for_folder(folder_path, ai_data):
     ws.cell(row=current_row, column=11).value = ITEM_TYPE_KEYWORD      # Item Type Keyword
     ws.cell(row=current_row, column=15).value = parent_sku      # model name = sku
     ws.cell(row=current_row, column=62).value = subject                # Subject Character
-    ws.cell(row=current_row, column=183).value = subject  # Animal Theme
+    ws.cell(row=current_row, column=144).value = subject
+    
+    ws.cell(row=current_row, column=203).value = DEFAULT_PRICE         # List Price
+    ws.cell(row=current_row, column=228).value = DEFAULT_QUANTITY      # Quantity (US)
+    ws.cell(row=current_row, column=229).value = DEFAULT_HANDLING_TIME # Handling Time (US)
     
     # Ảnh đại diện cho Parent (Trắng 1)
     if images_by_color["w"]:
@@ -91,6 +97,11 @@ def export_listing_for_folder(folder_path, ai_data):
             ws.cell(row=current_row, column=8).value = BRAND_NAME          # Brand Name
             ws.cell(row=current_row, column=11).value = ITEM_TYPE_KEYWORD  # Item Type Keyword
             ws.cell(row=current_row, column=232).value = DEFAULT_PRICE     # Your Price USD (Sell on Amazon, US)
+            
+            # New Columns for Child
+            ws.cell(row=current_row, column=203).value = DEFAULT_PRICE         # List Price
+            ws.cell(row=current_row, column=228).value = DEFAULT_QUANTITY      # Quantity (US)
+            ws.cell(row=current_row, column=229).value = DEFAULT_HANDLING_TIME # Handling Time (US)
             
             # Mô tả & Bullets
             ws.cell(row=current_row, column=29).value = description        # Product Description
