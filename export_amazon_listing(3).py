@@ -15,6 +15,7 @@ VARIATION_THEME = "SIZE/COLOR"
 SIZE_SYSTEM = "US"
 SIZE_CLASS = "Alpha"
 SIZES = ["S", "M", "L", "XL"]
+FUll_SIZE= ["Small", "Medium", "Large", "X-Large"]
 DEFAULT_PRICE = "20.99" 
 DEFAULT_QUANTITY = "10"
 DEFAULT_HANDLING_TIME = "3"
@@ -86,7 +87,8 @@ def export_listing_for_folder(folder_path, ai_data):
     # --- TẠO CÁC DÒNG CHILD (Bắt đầu từ hàng 8) ---
     for color_code, color_name in COLORS.items():
         imgs = images_by_color.get(color_code, [])
-        for size in SIZES:
+        for iSize, size in enumerate(SIZES):
+            
             child_sku = f"{parent_sku}-{color_code}-{size.lower()}"
             child_item_name = f"{Item_Name} ({color_name} - {size} )" # Item Name của Child bao gồm Màu và Size
             
@@ -114,7 +116,7 @@ def export_listing_for_folder(folder_path, ai_data):
             # Size & Color & Subject
             ws.cell(row=current_row, column=46).value = SIZE_SYSTEM        # Size System
             ws.cell(row=current_row, column=47).value = SIZE_CLASS         # Size Class
-            ws.cell(row=current_row, column=48).value = size               # Size Value
+            ws.cell(row=current_row, column=48).value = FUll_SIZE[iSize]       # Size Value
             ws.cell(row=current_row, column=62).value = subject            # Subject Character
             ws.cell(row=current_row, column=183).value = subject  # Animal Theme
             ws.cell(row=current_row, column=64).value = color_name         # Color Map
